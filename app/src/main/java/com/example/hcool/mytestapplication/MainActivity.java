@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.hcool.mytestapplication.animation.AnimationActivity;
 import com.example.hcool.mytestapplication.costomeview.TouchEventActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,4 +22,10 @@ public class MainActivity extends AppCompatActivity {
     public void touchEventTest(View view){
         startActivity(new Intent(this, TouchEventActivity.class));
     }
+
+    public void animationTest(View view){
+        startActivity(new Intent(this, AnimationActivity.class));
+    }
+
+
 }
